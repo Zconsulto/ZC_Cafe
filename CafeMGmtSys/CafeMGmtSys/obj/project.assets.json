@@ -476,11 +476,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aly Elshorbagy\\source\\repos\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
+      "projectUniqueName": "C:\\Users\\Aly Elshorbagy\\source\\ZC_Cafe\\ZC_Cafe\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
       "projectName": "CafeMGmtSys",
-      "projectPath": "C:\\Users\\Aly Elshorbagy\\source\\repos\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
+      "projectPath": "C:\\Users\\Aly Elshorbagy\\source\\ZC_Cafe\\ZC_Cafe\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
       "packagesPath": "C:\\Users\\Aly Elshorbagy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aly Elshorbagy\\source\\repos\\CafeMGmtSys\\CafeMGmtSys\\obj\\",
+      "outputPath": "C:\\Users\\Aly Elshorbagy\\source\\ZC_Cafe\\ZC_Cafe\\CafeMGmtSys\\CafeMGmtSys\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

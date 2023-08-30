@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0N0vtUgmkNcOSZGrLB6CjH/Xw7er652+kE4thXi3AORXV2wnTt0g82DHHRKrQ+BUHYSRHd7ljRsD2K/MOQ9Esg==",
+  "dgSpecHash": "ZkTUqnnMLDV/mTNQutij9RUXjkCddmPVHbfsO14I1xxiDRKWnWHEUn/VfF376lUe/mETu5Q1TtdGgjKxn/r81w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aly Elshorbagy\\source\\repos\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
+  "projectFilePath": "C:\\Users\\Aly Elshorbagy\\source\\ZC_Cafe\\ZC_Cafe\\CafeMGmtSys\\CafeMGmtSys\\CafeMGmtSys.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aly Elshorbagy\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Aly Elshorbagy\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
