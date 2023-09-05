@@ -31,24 +31,28 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Guest = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.LabelAmount = new System.Windows.Forms.Label();
+            this.DateLbl = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.QtyTb = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.SellerNameTb = new System.Windows.Forms.TextBox();
+            this.OrderNumTb = new System.Windows.Forms.TextBox();
+            this.OrdersGV = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.ItemsGV = new System.Windows.Forms.DataGridView();
+            this.categorycb = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrdersGV)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -65,6 +69,7 @@
             // Guest
             // 
             this.Guest.AutoSize = true;
+            this.Guest.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Guest.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
             this.Guest.ForeColor = System.Drawing.SystemColors.Highlight;
             this.Guest.Location = new System.Drawing.Point(57, 730);
@@ -77,52 +82,126 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.textBox2);
+            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.LabelAmount);
+            this.panel1.Controls.Add(this.DateLbl);
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.QtyTb);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.textBox5);
-            this.panel1.Controls.Add(this.dataGridView2);
+            this.panel1.Controls.Add(this.SellerNameTb);
+            this.panel1.Controls.Add(this.OrderNumTb);
+            this.panel1.Controls.Add(this.OrdersGV);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.ItemsGV);
+            this.panel1.Controls.Add(this.categorycb);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Location = new System.Drawing.Point(195, 30);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1105, 725);
             this.panel1.TabIndex = 12;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // textBox2
+            // button8
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(57, 221);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PlaceholderText = "Quantity";
-            this.textBox2.Size = new System.Drawing.Size(142, 22);
-            this.textBox2.TabIndex = 30;
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button8.ForeColor = System.Drawing.Color.Turquoise;
+            this.button8.Location = new System.Drawing.Point(54, 665);
+            this.button8.Name = "button8";
+            this.button8.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.button8.Size = new System.Drawing.Size(142, 32);
+            this.button8.TabIndex = 43;
+            this.button8.Text = "View Order";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.Turquoise;
+            this.label2.Location = new System.Drawing.Point(926, 665);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(33, 37);
+            this.label2.TabIndex = 42;
+            this.label2.Text = "$";
+            // 
+            // LabelAmount
+            // 
+            this.LabelAmount.AutoSize = true;
+            this.LabelAmount.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.LabelAmount.ForeColor = System.Drawing.Color.Turquoise;
+            this.LabelAmount.Location = new System.Drawing.Point(972, 665);
+            this.LabelAmount.Name = "LabelAmount";
+            this.LabelAmount.Size = new System.Drawing.Size(82, 37);
+            this.LabelAmount.TabIndex = 41;
+            this.LabelAmount.Text = "Total";
+            // 
+            // DateLbl
+            // 
+            this.DateLbl.AutoSize = true;
+            this.DateLbl.BackColor = System.Drawing.Color.White;
+            this.DateLbl.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.DateLbl.ForeColor = System.Drawing.Color.Turquoise;
+            this.DateLbl.Location = new System.Drawing.Point(918, 5);
+            this.DateLbl.Name = "DateLbl";
+            this.DateLbl.Size = new System.Drawing.Size(78, 37);
+            this.DateLbl.TabIndex = 40;
+            this.DateLbl.Text = "Date";
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.Color.Turquoise;
+            this.button7.Location = new System.Drawing.Point(205, 80);
+            this.button7.Name = "button7";
+            this.button7.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
+            this.button7.Size = new System.Drawing.Size(102, 32);
+            this.button7.TabIndex = 31;
+            this.button7.Text = "Refresh";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.Refresh);
+            // 
+            // QtyTb
+            // 
+            this.QtyTb.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.QtyTb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.QtyTb.Location = new System.Drawing.Point(57, 221);
+            this.QtyTb.Name = "QtyTb";
+            this.QtyTb.PlaceholderText = "Quantity";
+            this.QtyTb.Size = new System.Drawing.Size(142, 22);
+            this.QtyTb.TabIndex = 30;
             // 
             // button3
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button3.ForeColor = System.Drawing.Color.Turquoise;
-            this.button3.Location = new System.Drawing.Point(647, 665);
+            this.button3.Location = new System.Drawing.Point(633, 665);
             this.button3.Name = "button3";
             this.button3.Padding = new System.Windows.Forms.Padding(0, 0, 0, 5);
-            this.button3.Size = new System.Drawing.Size(142, 32);
+            this.button3.Size = new System.Drawing.Size(184, 32);
             this.button3.TabIndex = 23;
             this.button3.Text = "Place The Order";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button4.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.Color.Turquoise;
             this.button4.Location = new System.Drawing.Point(54, 249);
@@ -132,6 +211,7 @@
             this.button4.TabIndex = 29;
             this.button4.Text = "Add To Cart";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button2
             // 
@@ -147,36 +227,38 @@
             this.button2.Text = "Place The Order";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // SellerNameTb
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(57, 164);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PlaceholderText = "SellerName";
-            this.textBox1.Size = new System.Drawing.Size(142, 22);
-            this.textBox1.TabIndex = 28;
+            this.SellerNameTb.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.SellerNameTb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.SellerNameTb.Location = new System.Drawing.Point(57, 164);
+            this.SellerNameTb.Name = "SellerNameTb";
+            this.SellerNameTb.PlaceholderText = "SellerName";
+            this.SellerNameTb.Size = new System.Drawing.Size(142, 22);
+            this.SellerNameTb.TabIndex = 28;
             // 
-            // textBox5
+            // OrderNumTb
             // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(57, 126);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PlaceholderText = "OrderNum";
-            this.textBox5.Size = new System.Drawing.Size(142, 22);
-            this.textBox5.TabIndex = 27;
+            this.OrderNumTb.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.OrderNumTb.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OrderNumTb.Location = new System.Drawing.Point(57, 126);
+            this.OrderNumTb.Name = "OrderNumTb";
+            this.OrderNumTb.PlaceholderText = "OrderNum";
+            this.OrderNumTb.Size = new System.Drawing.Size(142, 22);
+            this.OrderNumTb.TabIndex = 27;
             // 
-            // dataGridView2
+            // OrdersGV
             // 
-            this.dataGridView2.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.GridColor = System.Drawing.Color.White;
-            this.dataGridView2.Location = new System.Drawing.Point(374, 385);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.RowTemplate.Height = 25;
-            this.dataGridView2.Size = new System.Drawing.Size(680, 255);
-            this.dataGridView2.TabIndex = 20;
+            this.OrdersGV.BackgroundColor = System.Drawing.Color.White;
+            this.OrdersGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.OrdersGV.GridColor = System.Drawing.Color.White;
+            this.OrdersGV.Location = new System.Drawing.Point(374, 385);
+            this.OrdersGV.Name = "OrdersGV";
+            this.OrdersGV.RowHeadersWidth = 51;
+            this.OrdersGV.RowTemplate.Height = 25;
+            this.OrdersGV.Size = new System.Drawing.Size(680, 255);
+            this.OrdersGV.TabIndex = 20;
+            this.OrdersGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OrdersGV_CellContentClick);
             // 
             // label3
             // 
@@ -204,40 +286,33 @@
             this.button1.Text = "Add To Cart";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // ItemsGV
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Turquoise;
-            this.label2.Location = new System.Drawing.Point(890, 660);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 37);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "OrderAmount";
+            this.ItemsGV.BackgroundColor = System.Drawing.Color.White;
+            this.ItemsGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.ItemsGV.GridColor = System.Drawing.Color.White;
+            this.ItemsGV.Location = new System.Drawing.Point(358, 73);
+            this.ItemsGV.Name = "ItemsGV";
+            this.ItemsGV.RowHeadersWidth = 51;
+            this.ItemsGV.RowTemplate.Height = 25;
+            this.ItemsGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.ItemsGV.Size = new System.Drawing.Size(680, 208);
+            this.ItemsGV.TabIndex = 14;
+            this.ItemsGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ItemsGV_CellContentClick);
             // 
-            // dataGridView1
+            // categorycb
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.Color.White;
-            this.dataGridView1.Location = new System.Drawing.Point(358, 73);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(680, 208);
-            this.dataGridView1.TabIndex = 14;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.categorycb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.categorycb.FormattingEnabled = true;
+            this.categorycb.Items.AddRange(new object[] {
             "Food",
             "Beverage"});
-            this.comboBox1.Location = new System.Drawing.Point(57, 82);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(142, 26);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "Category";
+            this.categorycb.Location = new System.Drawing.Point(57, 82);
+            this.categorycb.Name = "categorycb";
+            this.categorycb.Size = new System.Drawing.Size(142, 26);
+            this.categorycb.TabIndex = 13;
+            this.categorycb.Text = "Category";
+            this.categorycb.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectionChangeCommitted);
             // 
             // label5
             // 
@@ -245,7 +320,7 @@
             this.label5.BackColor = System.Drawing.Color.White;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Turquoise;
-            this.label5.Location = new System.Drawing.Point(444, 2);
+            this.label5.Location = new System.Drawing.Point(336, 2);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(166, 37);
             this.label5.TabIndex = 12;
@@ -255,6 +330,7 @@
             // 
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button6.BackColor = System.Drawing.Color.White;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button6.ForeColor = System.Drawing.Color.Turquoise;
             this.button6.Location = new System.Drawing.Point(23, 110);
@@ -270,6 +346,7 @@
             // 
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.Color.Turquoise;
             this.button5.Location = new System.Drawing.Point(23, 167);
@@ -294,11 +371,13 @@
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "UserOrder";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UserOrder";
+            this.Load += new System.EventHandler(this.UserOrder_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.OrdersGV)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ItemsGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -310,19 +389,24 @@
         private Label Guest;
         private Panel panel1;
         private Button button2;
-        private DataGridView dataGridView2;
+        private DataGridView dataGridViewOrdersGv2;
         private Label label3;
         private Button button1;
-        private Label label2;
-        private DataGridView dataGridView1;
-        private ComboBox comboBox1;
+        private DataGridView ItemsGV;
+        private ComboBox categorycb;
         private Label label5;
         private Button button3;
         private Button button6;
         private Button button5;
-        private TextBox textBox2;
+        private TextBox QtyTb;
         private Button button4;
-        private TextBox textBox1;
-        private TextBox textBox5;
+        private TextBox SellerNameTb;
+        private TextBox OrderNumTb;
+        private DataGridView OrdersGV;
+        private Button button7;
+        private Label DateLbl;
+        private Label label2;
+        private Label LabelAmount;
+        private Button button8;
     }
 }

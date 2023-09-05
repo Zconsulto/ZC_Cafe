@@ -17,12 +17,12 @@ namespace CafeMGmtSys
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Aly Elshorbagy\Documents\Cafedb.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\OneDrive\Documents\CafeDB.mdf;Integrated Security=True;Connect Timeout=30");
 
         void Populate()
         {
             con.Open();
-            string query = "select * from ItemTb";
+            string query = "select * from ItemTb1";
             SqlDataAdapter SDA = new SqlDataAdapter(query, con);
             SqlCommandBuilder Builder = new SqlCommandBuilder(SDA);
             var ds = new DataSet();
@@ -51,7 +51,7 @@ namespace CafeMGmtSys
             else
             {
                 con.Open();
-                string query = "insert into ItemTb values('" + ItemNumTb.Text + "','" + ItemNameTb.Text + "','" + CatCb.SelectedItem.ToString() +"','"+ ItemPriceTb.Text + "')";
+                string query = "insert into ItemTb1 values('" + ItemNumTb.Text + "','" + ItemNameTb.Text + "','" + CatCb.SelectedItem.ToString() +"','"+ ItemPriceTb.Text + "')";
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Item Successfully Created!");
@@ -96,7 +96,7 @@ namespace CafeMGmtSys
             else
             {
                 con.Open();
-                string query = "delete from ItemTb where ItemNum = '" + ItemNumTb.Text + "'";
+                string query = "delete from ItemTb1 where ItemNum = '" + ItemNumTb.Text + "'";
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Item Successfully Deleted");
@@ -114,7 +114,7 @@ namespace CafeMGmtSys
             else
             {
                 con.Open();
-                string query = "update ItemTb set ItemPrice = '" + ItemPriceTb.Text + "', ItemCat = '" + CatCb.SelectedItem.ToString() + "', ItemName = '" + ItemNameTb.Text + "' where ItemNum = '"  + ItemNumTb.Text + "'";
+                string query = "update ItemTb1 set ItemPrice = '" + ItemPriceTb.Text + "', ItemCat = '" + CatCb.SelectedItem.ToString() + "', ItemName = '" + ItemNameTb.Text + "' where ItemNum = '"  + ItemNumTb.Text + "'";
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("Item Successfully Updated");
@@ -122,5 +122,7 @@ namespace CafeMGmtSys
                 Populate();
             }
         }
+
+        
     }
 }

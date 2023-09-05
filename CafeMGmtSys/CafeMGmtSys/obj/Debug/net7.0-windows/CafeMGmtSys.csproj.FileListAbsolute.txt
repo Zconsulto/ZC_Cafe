@@ -56,3 +56,33 @@ C:\Users\Aly Elshorbagy\source\ZC_Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug
 C:\Users\Aly Elshorbagy\source\ZC_Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.pdb
 C:\Users\Aly Elshorbagy\source\ZC_Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.genruntimeconfig.cache
 C:\Users\Aly Elshorbagy\source\ZC_Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\ref\CafeMGmtSys.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\CafeMGmtSys.exe
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\CafeMGmtSys.deps.json
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\CafeMGmtSys.runtimeconfig.json
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\CafeMGmtSys.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\CafeMGmtSys.pdb
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.csproj.AssemblyReference.cache
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.Form1.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.GuestOrder.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.ItemsForm.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.Properties.Resources.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.UserOrder.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.UsersForm.resources
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.csproj.GenerateResource.cache
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.GeneratedMSBuildEditorConfig.editorconfig
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.AssemblyInfoInputs.cache
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.AssemblyInfo.cs
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.csproj.CoreCompileInputs.cache
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.csproj.CopyComplete
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\refint\CafeMGmtSys.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.pdb
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.genruntimeconfig.cache
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\ref\CafeMGmtSys.dll
+D:\ZconsProjects\Cafe\ZC_Cafe\CafeMGmtSys\CafeMGmtSys\obj\Debug\net7.0-windows\CafeMGmtSys.ViewOrders.resources
